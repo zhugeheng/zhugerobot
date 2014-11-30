@@ -48,23 +48,23 @@ public class CoreService {
 
 			// 文本消息
 			if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_TEXT)) {
-				respContent = "您发送的是文本消息！";
+				respContent = "机器人尚未成年，暂时还看不懂您说的话，过段时间再来吧~";
 			}
 			// 图片消息
 			else if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_IMAGE)) {
-				respContent = "您发送的是图片消息！";
+				respContent = "机器人尚未成年，暂时还看不懂您说的话，过段时间再来吧~";
 			}
 			// 地理位置消息
 			else if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_LOCATION)) {
-				respContent = "您发送的是地理位置消息！";
+				respContent = "机器人尚未成年，暂时还看不懂您说的话，过段时间再来吧~";
 			}
 			// 链接消息
 			else if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_LINK)) {
-				respContent = "您发送的是链接消息！";
+				respContent = "机器人尚未成年，暂时还看不懂您说的话，过段时间再来吧~";
 			}
 			// 音频消息
 			else if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_VOICE)) {
-				respContent = "您发送的是音频消息！";
+				respContent = "机器人尚未成年，暂时还看不懂您说的话，过段时间再来吧~";
 			}
 			// 事件推送
 			else if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_EVENT)) {
@@ -72,7 +72,7 @@ public class CoreService {
 				String eventType = requestMap.get("Event");
 				// 订阅
 				if (eventType.equals(MessageUtil.EVENT_TYPE_SUBSCRIBE)) {
-					respContent = "谢谢您的关注！";
+					respContent = "欢迎关注诸葛机器人，各种功能正在开发中，敬请期待！！";
 				}
 				// 取消订阅
 				else if (eventType.equals(MessageUtil.EVENT_TYPE_UNSUBSCRIBE)) {
