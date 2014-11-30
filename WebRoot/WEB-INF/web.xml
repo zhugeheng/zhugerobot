@@ -6,7 +6,7 @@
     <servlet>  
         <servlet-name>coreServlet</servlet-name>  
         <servlet-class>  
-            org.liufeng.course.servlet.CoreServlet  
+            com.wechat.zhugerobot.servlet.CoreServlet  
         </servlet-class>  
     </servlet>  
   

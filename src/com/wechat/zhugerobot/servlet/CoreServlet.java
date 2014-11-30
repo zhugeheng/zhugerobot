@@ -51,6 +51,7 @@ public class CoreServlet extends HttpServlet {
         //TODO 方法找不到？
 //        response.setCharacterEncoding("UTF-8");  
   
+        
         // 调用核心业务类接收消息、处理消息  
         String respMessage = CoreService.processRequest(request);  
           
